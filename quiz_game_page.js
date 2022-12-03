@@ -10,6 +10,12 @@ document.getElementById("player2_name").innerHTML=player2_name;
 document.getElementById("player1_score").innerHTML=player1_score;
 document.getElementById("player2_score").innerHTML=player2_score;
 
+question_turn = "player1";
+document.getElementById("player_question").innerHTML = "Question Turn - " + player1_name;
+
+answer_turn = "player2";
+document.getElementById("player_answer").innerHTML = "Answer Turn - " + player2_name;
+
 function send()
 {
     number1 = document.getElementById("num1").value;
